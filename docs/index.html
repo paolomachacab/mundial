@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mundial 2026 — Pick'ems</title>
+<meta name="description" content="Predicciones, bingo diario y subasta de selecciones para el Mundial 2026, entre amigos.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="encabezado">
+  <div class="envoltura encabezado__barra">
+    <div class="marca"><span class="marca__pelota">⚽</span> MUNDIAL26 PICKS</div>
+    <nav class="nav">
+      <a href="#partidos">Partidos</a>
+      <a href="#bingo">Bingo</a>
+      <a href="#picks">Picks</a>
+      <a href="#subasta">Subasta</a>
+      <a href="#ranking">Ranking</a>
+    </nav>
+    <!-- REEMPLAZAR con el enlace real del Google Form de registro -->
+    <a class="boton-registro" href="#" id="enlace-registro">Registrarme</a>
+  </div>
+</header>
+
+<main class="envoltura">
+
+  <!-- HERO: marcador del proximo partido o partido en vivo -->
+  <section class="hero">
+    <p class="hero__eyebrow">Liga entre amigos · 25 participantes</p>
+    <h1 class="hero__titulo">Predice cada<br>jornada del Mundial.</h1>
+    <p class="hero__sub">Resultados, goles por tiempo, tarjetas, alargue y penales. Bingo diario y subasta de selecciones con $100 virtuales por persona.</p>
+
+    <div class="marcador" id="marcador-destacado">
+      <div class="marcador__franja"></div>
+      <div class="marcador__cuerpo">
+        <div class="marcador__equipo marcador__equipo--local">
+          <div class="marcador__bandera">—</div>
+          <span>Cargando…</span>
+        </div>
+        <div class="marcador__centro">
+          <div class="marcador__goles">– : –</div>
+          <span class="marcador__estado">Cargando</span>
+        </div>
+        <div class="marcador__equipo marcador__equipo--visitante">
+          <div class="marcador__bandera">—</div>
+          <span>Cargando…</span>
+        </div>
+      </div>
+      <div class="marcador__pie">
+        <span id="marcador-estadio">—</span>
+        <span id="marcador-grupo">—</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTIDOS DEL DIA -->
+  <section class="seccion" id="partidos">
+    <div class="seccion__cabecera">
+      <h2 class="seccion__titulo">Partidos de hoy</h2>
+      <span class="seccion__nota" id="ultima-actualizacion">Actualizando…</span>
+    </div>
+    <div class="lista-partidos" id="lista-partidos">
+      <p class="estado-carga">Cargando partidos…</p>
+    </div>
+  </section>
+
+  <!-- BINGO DIARIO -->
+  <section class="seccion" id="bingo">
+    <div class="seccion__cabecera">
+      <h2 class="seccion__titulo">Bingo del día</h2>
+      <span class="seccion__nota">Se marca solo con los resultados reales</span>
+    </div>
+    <div class="grid-tarjetas">
+      <div class="tarjeta">
+        <h3 class="tarjeta__titulo">Próximamente</h3>
+        <p class="tarjeta__texto">El tablero de bingo se arma en la Fase 3, una vez que los picks y los datos en vivo estén funcionando.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PICKS / PREDICCIONES -->
+  <section class="seccion" id="picks">
+    <div class="seccion__cabecera">
+      <h2 class="seccion__titulo">Tus picks de la jornada</h2>
+    </div>
+    <div class="grid-tarjetas">
+      <div class="tarjeta">
+        <h3 class="tarjeta__titulo">Cargá tu predicción</h3>
+        <p class="tarjeta__texto">Resultado, goles por tiempo, tarjetas, alargue y penales — un formulario corto por jornada.</p>
+        <!-- REEMPLAZAR con el enlace real del Google Form de picks -->
+        <a class="tarjeta__enlace" href="#" id="enlace-picks">Ir al formulario →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBASTA -->
+  <section class="seccion" id="subasta">
+    <div class="seccion__cabecera">
+      <h2 class="seccion__titulo">Subasta de selecciones</h2>
+      <span class="seccion__nota">$100 virtuales por usuario · precio base según ranking FIFA</span>
+    </div>
+    <div class="grid-tarjetas">
+      <div class="tarjeta">
+        <h3 class="tarjeta__titulo">Próximamente</h3>
+        <p class="tarjeta__texto">La subasta interactiva en vivo se arma en la Fase 3.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RANKING -->
+  <section class="seccion" id="ranking">
+    <div class="seccion__cabecera">
+      <h2 class="seccion__titulo">Tabla de posiciones</h2>
+    </div>
+    <div class="grid-tarjetas">
+      <div class="tarjeta">
+        <h3 class="tarjeta__titulo">Próximamente</h3>
+        <p class="tarjeta__texto">El ranking de puntos se conecta en la Fase 2, cuando los picks empiecen a cargarse.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pie envoltura">
+  <span>Mundial 2026 Picks — proyecto entre amigos</span>
+  <span id="pie-actualizacion">—</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
