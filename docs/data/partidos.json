@@ -1,44 +1,5 @@
 {
-  "actualizado_utc": "2026-06-19T00:00:00+00:00",
-  "total_partidos": 2,
-  "partidos": [
-    {
-      "id": 1,
-      "fecha_utc": "2026-06-19T18:00:00+00:00",
-      "estadio": "Estadio Azteca",
-      "ciudad": "Ciudad de Mexico",
-      "estado": "NS",
-      "minuto": null,
-      "grupo": "Group A",
-      "local": "Mexico",
-      "visitante": "South Africa",
-      "goles_local": null,
-      "goles_visitante": null,
-      "goles_primer_tiempo": { "local": null, "visitante": null },
-      "goles_segundo_tiempo": null,
-      "hubo_alargue": false,
-      "goles_alargue": { "local": null, "visitante": null },
-      "hubo_penales": false,
-      "penales": { "local": null, "visitante": null }
-    },
-    {
-      "id": 2,
-      "fecha_utc": "2026-06-19T21:00:00+00:00",
-      "estadio": "MetLife Stadium",
-      "ciudad": "Nueva York / Nueva Jersey",
-      "estado": "NS",
-      "minuto": null,
-      "grupo": "Group D",
-      "local": "United States",
-      "visitante": "Australia",
-      "goles_local": null,
-      "goles_visitante": null,
-      "goles_primer_tiempo": { "local": null, "visitante": null },
-      "goles_segundo_tiempo": null,
-      "hubo_alargue": false,
-      "goles_alargue": { "local": null, "visitante": null },
-      "hubo_penales": false,
-      "penales": { "local": null, "visitante": null }
-    }
-  ]
+  "actualizado_utc": "2026-06-20T01:59:48.818587+00:00",
+  "total_partidos": 0,
+  "partidos": []
 }
